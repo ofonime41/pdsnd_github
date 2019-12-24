@@ -216,6 +216,7 @@ def main():
         head = 0
         size = 4
         #handle data view
+        #THIS SECTION HANDLES THE INPUT FORM ERROS
         while True:
             try:
                 view_trip_data = str(input("Would you like to see individual trip data? (yes or no)\n")).lower()
